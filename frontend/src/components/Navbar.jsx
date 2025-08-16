@@ -20,7 +20,7 @@ const Navbar = () => {
   );
   return (
     <Fragment>
-      <div className="max-w-screen container mx-auto md:px-20 sm:px-5">
+      <div className="max-w-screen container mx-auto md:px-20 sm:px-5 sticky top-0 z-10 ">
         <div className="navbar bg-base-100 shadow-sm">
           <div className="navbar-start">
             <div className="dropdown">
